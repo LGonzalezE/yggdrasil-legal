@@ -1,0 +1,33 @@
+{
+  "$schema": "./registry.schema.json",
+  "name": "yggdrasil-legal",
+  "description": "Registro central de políticas, términos de servicio y acuerdos de confidencialidad de Yggdrasil Platform",
+  "active_version": "v1.0.0",
+  "updated_at": "2026-10-05T20:59:00Z",
+  "documents": {
+    "evaluation_terms": {
+      "id": "evaluation-terms",
+      "title": "Términos y Condiciones de Uso y Evaluación Técnica (Sandbox PoC)",
+      "version": "1.0.0",
+      "path": "terms/evaluation-terms-v1.0.0.md",
+      "sha256": "52b6208d279de8176297220d3164ac452106d8cdf9c1eb67f56de4af0a7c3ccf",
+      "required": true
+    },
+    "individual_nda": {
+      "id": "individual-evaluator-nda",
+      "title": "Acuerdo Individual de Confidencialidad y Protección de Secretos Empresariales",
+      "version": "1.0.0",
+      "path": "nda/individual-evaluator-nda-v1.0.0.md",
+      "sha256": "393aea8579674f3a6dee1e5ba96f8a2fedf19a363af91b84e2e016f9f48261d3",
+      "required": true
+    },
+    "habeas_data": {
+      "id": "habeas-data",
+      "title": "Autorización para el Tratamiento de Datos Personales (Ley 1581 de 2012)",
+      "version": "1.0.0",
+      "path": "privacy/habeas-data-v1.0.0.md",
+      "sha256": "83563219efc42356e0e48a8f7e17da4b12039d4ae14865849bc46b886340c3ca",
+      "required": true
+    }
+  }
+}
